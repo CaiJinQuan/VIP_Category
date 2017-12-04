@@ -9,5 +9,7 @@
 #import "CTMediator+VIP.h"
 
 @implementation CTMediator (VIP)
-
+- (UIViewController *)VIP_viewController {
+  return  [self performTarget:@"VIP" action:@"viewController" params:nil shouldCacheTarget:NO];
+}
 @end

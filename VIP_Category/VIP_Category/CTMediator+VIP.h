@@ -9,5 +9,6 @@
 #import <CTMediator/CTMediator.h>
 
 @interface CTMediator (VIP)
+- (UIViewController *)VIP_viewController;
 
 @end
