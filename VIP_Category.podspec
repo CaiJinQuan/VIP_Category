@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VIP_Category"
-  s.version      = "1"
+  s.version      = "2"
   s.summary      = "VIP_Category."
 
   # This description is used to generate tags and improve search results.
